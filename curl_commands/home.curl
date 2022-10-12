@@ -1,0 +1,9 @@
+
+# Home page
+curl -I http://localhost:4000/
+
+
+###
+
+# View snnipet by ID
+curl -I http://localhost:4000/snippet/view/1

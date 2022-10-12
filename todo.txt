@@ -1,0 +1,10 @@
+Start mysql service: $ sudo service mysql start
+
+a) add note about mysql command.
+    - how to create user
+    - how to set user permissions
+    - how create database
+    - how to enter in mysql with user and password.
+
+
+b) add curl commands for all rest API.
