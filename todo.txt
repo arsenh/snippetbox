@@ -1,4 +1,5 @@
-Start mysql service: $ sudo service mysql start
+Start mysql service: 
+$ sudo service mysql start
 
 a) add note about mysql command.
     - how to create user
@@ -7,5 +8,6 @@ a) add note about mysql command.
     - how to enter in mysql with user and password.
 
 
-b) add curl commands for all rest API.
+Generate TLS certificates for HTTPS connection:
+$ go run /usr/local/go/src/crypto/tls/generate_cert.go --rsa-bits=2048 --host=localhost
 
